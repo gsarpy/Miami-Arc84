@@ -1,0 +1,21 @@
+{
+    "name": "miami-arc84",
+    "displayName": "Miami Arc84",
+    "description": "Summer nights in a Miami Arcade",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Miami Arc84",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Miami Arc84-color-theme.json"
+            }
+        ]
+    }
+}

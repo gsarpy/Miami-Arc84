@@ -120,7 +120,6 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
-
 				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
@@ -133,7 +132,19 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#666"
+				"foreground": "#ec5a9c"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php"
+			],
+			"settings": {
+				"foreground": "#777"
 			}
 		},
 		{
@@ -144,7 +155,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#777"
+				"foreground": "#19C0A1"
 			}
 		},
 		{

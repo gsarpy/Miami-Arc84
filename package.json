@@ -14,7 +14,12 @@
             {
                 "label": "Miami Arc84",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Miami Arc84-color-theme.json"
+                "path": "./themes/miami-arc84.json" 
+            },
+            {
+                "label": "Miami Arc84 Alt",
+                "uiTheme": "vs-dark",
+                "path": "./themes/miami-arc84-alt.json" 
             }
         ]
     }

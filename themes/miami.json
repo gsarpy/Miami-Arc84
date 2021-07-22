@@ -94,6 +94,7 @@
 			"scope": "source",
 			"settings": {
 				"foreground": "#4692a8"
+				// "foreground": "#23aea0"
 			}
 		},
 		{
@@ -127,15 +128,23 @@
 				"support.type.property-name.scss",
 				"support.type.vendored.property-name.css", // .x { -webkit-foo: "x" }
 				"support.type.vendored.property-name.scss",
-				"meta.property-value.css support.constant", // .x { x: sans-serif }
-				"meta.property-value.scss support.constant",
-				"meta.property-value.css support.constant.property-value", // .x { x: center }
-				"meta.property-value.scss support.constant.property-value",
 				"support.function.transform.css", // .x { x: rotate(x) }
 				"support.function.transform.scss"
 			],
 			"settings": {
-				"foreground": "#ba9bd5"
+				"foreground": "#c36daf"
+			}
+		},
+		{
+			"name": "CSS",
+			"scope": [
+				"meta.property-value.css support.constant", // .x { x: sans-serif }
+				"meta.property-value.scss support.constant",
+				"meta.property-value.css support.constant.property-value", // .x { x: center }
+				"meta.property-value.scss support.constant.property-value"
+			],
+			"settings": {
+				"foreground": "#e0dce5"
 			}
 		},
 		{
@@ -166,7 +175,8 @@
 				"support.function" // Object.keys
 			],
 			"settings": {
-				"foreground": "#5295a2"
+				"foreground": "#cb72a7"
+				// "foreground": "#5295a2"
 			} //00BFA9 hmm? #4b95b3 92799c
 		},
 		{
@@ -276,7 +286,8 @@
 				"constant.character.escape.backslash" // /\//
 			],
 			"settings": {
-				"foreground": "#94598c",
+				// "foreground": "#94598c",
+				"foreground": "#d46abb",
 				"fontStyle": "italic"
 			} //ae9bc9
 		},
@@ -378,7 +389,7 @@
 				"support.variable.property"
 			],
 			"settings": {
-				"foreground": "#ABABAB",
+				"foreground": "#ffffff",
 				"fontStyle": "italic"
 			} //04BFAD #C3C4C9
 		}

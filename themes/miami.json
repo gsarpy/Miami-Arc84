@@ -1,5 +1,6 @@
 {
 	"type": "dark",
+	"name": "Miami Arcade",
 	"colors": {
 		// white: borderless
 		"titleBar.activeBackground": "#222222",

@@ -1,21 +1,31 @@
 {
-    "name": "miami-arcade",
-    "displayName": "Miami Arcade",
-    "description": "Summer nights in a Miami Arcade",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.29.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Miami Arcade",
-                "uiTheme": "vs-dark",
-                "path": "./themes/miami-arcade.json" 
-            }
-        ]
-    }
+  "name": "miami-arcade",
+  "displayName": "Miami Arcade",
+  "description": "Summer nights in a Miami Arcade",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.29.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Miami Arcade",
+        "uiTheme": "vs-dark",
+        "path": "./themes/miami-arcade.json"
+      },
+      {
+        "label": "Miami Arc84",
+        "uiTheme": "vs-dark",
+        "path": "./themes/miami-arc84.json"
+      },
+      {
+        "label": "Miami Arc84 Alt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/miami-arc84-alt.json"
+      }
+    ]
+  }
 }
